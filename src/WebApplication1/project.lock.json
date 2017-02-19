@@ -1576,6 +1576,9 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NuGet.CommandLine/3.5.0": {
+        "type": "package"
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -4760,6 +4763,16 @@
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "tools/install.ps1"
+      ]
+    },
+    "NuGet.CommandLine/3.5.0": {
+      "sha512": "hXv/6hCKfdvzvuD+ww9uOhHBb2YerRvswtfPNBzY0MdxZLXB3M8z9LvlYhCVJYt+OBmtbwof+cg6TlZ8kmFXfg==",
+      "type": "package",
+      "path": "NuGet.CommandLine/3.5.0",
+      "files": [
+        "NuGet.CommandLine.3.5.0.nupkg.sha512",
+        "NuGet.CommandLine.nuspec",
+        "tools/NuGet.exe"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -9341,7 +9354,8 @@
       "Microsoft.Extensions.Logging.Console >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
-      "Microsoft.NETCore.App >= 1.0.0"
+      "Microsoft.NETCore.App >= 1.0.0",
+      "NuGet.CommandLine >= 3.5.0"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

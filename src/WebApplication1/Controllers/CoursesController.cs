@@ -29,6 +29,11 @@ namespace WebApplication1.Controllers
                 {
                     new Student
                     {
+                        SSN = 0601882999,
+                        Name = "George Costanza"
+                    },
+                    new Student
+                    {
                         SSN = 0501882999,
                         Name = "Vignir Karl"
                     },
